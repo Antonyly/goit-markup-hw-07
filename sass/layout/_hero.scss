@@ -27,7 +27,7 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .hero-title {
+  .hero-container__title {
     margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
@@ -37,7 +37,7 @@
     text-transform: uppercase;
     color: var(--secondary-text-color-light);
   }
-  .hero-btn {
+  .hero-container__btn {
     min-height: 40px;
     padding: 6px 18px;
     font-family: inherit;
