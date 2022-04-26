@@ -3,16 +3,11 @@
   }
 
 
-.section-footer {
-  display: flex;
 
-  justify-content: center;
 
-  }
-.footer-addresses{
-  margin-top: 20px;
-}
-  
+
+
+
   .footer-logo {
 
     margin-bottom: 20px;
@@ -33,27 +28,13 @@
     letter-spacing: 0.03em;
     color: var(--accent-color);
   }
-  @media screen and (min-width:1200px){
-      .footer-logo {
 
-        font-size: 26px;
-        line-height: 1.19;
 
-      }
-      
-      .logo-site-footer {
-
-        font-size: 26px;
-        line-height: 1.19;
-
-      }
-  }
 
   .footer-list-item:not(:last-child) {
     margin-bottom: 8px;
   }
   .footer-list-address {
-    display: flex;
 
     font-style: normal;
     font-weight: 400;
@@ -140,7 +121,6 @@
   .footer-input{
     display: block;
     padding: 15px 16px;
-    max-width: 450px;
     height: 50px;
   
     cursor: pointer;
@@ -258,15 +238,93 @@ margin-top: 20px;
 }
 @media screen and (min-width:768px){
 
-  .footer-list{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+  .footer-input{
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+  }
+  .footer-section{
+    display: inline-flex;
     flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 76px;
+  }
+    .second-container{
+
+      display: inline-flex;
+      margin-left: 165px;
+      margin-top: 0;
+
+
+    }
+}
+@media screen and (max-width:768px) {
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
+@media screen and (min-width:1200px){
+  .footer-container{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .footer-wrapper{
+    display: inline-flex;
+    flex-direction: row;
+  }
+  .btn-section{
+    display: inline-flex;
+  }
+  .footer-section {
+    display: inline-flex;
+    justify-content: start;
+    text-align: left;
+    margin-left: 0;
+  }
+  .footer-input {
+    width: 358px;
+  }
+  .footer-btn{
+    margin-left: 12px;
+  }
+  .footer-form-text{
+    display: flex;
+    margin-top: 0;
+  }
+  .footer-form-container {
+    display: inline-flex;
+
+    margin-left: auto;
+  }
+  .footer-wrapper{
+    display: flex-box;
+    flex-direction: row;
+  }
+  .second-container {
+    margin-left: 70px;
 
   }
-  .footer-logo{
-    display: inline-block;
-  }
+        .footer-logo {
+        
+          font-size: 26px;
+          line-height: 1.19;
+        
+        }
+        
+        .logo-site-footer {
+        
+          font-size: 26px;
+          line-height: 1.19;
+        
+        }
+        
+        .footer-form {
+          margin-left: 93px;
+        }
+        
 }

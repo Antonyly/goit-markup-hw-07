@@ -76,7 +76,7 @@
                 <li class="mobile-menu__item list"> <a class="mobile-menu__item-link link" href="./portfolio.html">Портфолио</a></li>
                 <li class="mobile-menu__item list"> <a class="mobile-menu__item-link link" href="">Контакты</a></li>
             </ul>
-<div class="flex-wrapper">
+        <div class="flex-wrapper">
                 <ul class="contact-menu list">
                     <li class="contact-menu__item ">
                 
@@ -505,7 +505,7 @@
     <footer class="footer">
         <section class="section-footer section">
             <div class="container footer-container">
-                <div class="footer-section">
+                <div class=" footer-section">
                     <a class="footer-logo link" href="./index.html"><span class="logo-site-footer">Web</span>Studio</a>
                     <address class="footer-addresses">
                         <ul class="footer-list list">
@@ -562,15 +562,17 @@
                 
                     <p class="footer-form-text">Подпишитесь на рассылку</p>
                 
-                
-                <div class="btn-section">
+                <div class="footer-wrapper">
+                <span class="btn-section">
                             <input name="user_mail" type="mail" class="footer-input" required placeholder="E-mail">
                         
+                        
+                </span>
+                        <button type="submit" class="footer-btn">Подписаться</button>
                         </div>
                         
-                        
                     </form>
-                    <button type="submit" class="footer-btn">Подписаться</button>
+                    
                     </div>
                     
                 </div>
@@ -611,20 +613,7 @@
                                 refs.menu.classList.toggle('is-open');
                             }
                         })();
-                    // (() => {
-                    //         const menuBtnRef = document.querySelector("[data-menu-button]");
-                    //         const mobileMenuRef = document.querySelector("[data-menu]");
-
-                    //         menuBtnRef.addEventListener("click", () => {
-                    //             const expanded =
-                    //                 menuBtnRef.getAttribute("aria-expanded") === "true" || false;
-
-                    //             menuBtnRef.classList.toggle("menu-button--is-open");
-                    //             menuBtnRef.getAttribute("aria-expanded", !expanded);
-
-                    //             mobileMenuRef.classList.toggle("nav-container--is-open");
-                    //         });
-                    //     })();
+             
                 </script>
     
     </body>
