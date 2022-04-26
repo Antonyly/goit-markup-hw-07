@@ -30,8 +30,8 @@ img {
   text-decoration: none;
 }
 .section {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 
 .container {
@@ -39,20 +39,28 @@ img {
     padding-right: 15px;
 
   }
-  @media screen and (min-width: 480px){
-    .container{
+
+  @media screen and (min-width: 480px) {
+    .container {
       width: 448px;
       margin-left: auto;
       margin-right: auto;
     }
   }
-  @media screen and (min-width: 768px){
-    .container{
+  
+  @media screen and (min-width: 768px) {
+    .container {
       width: 767px;
     }
   }
-    @media screen and (min-width: 1200px) {
-      .container {
-        width: 1200px;
-      }
+  
+  @media screen and (min-width: 1200px) {
+    .container {
+      width: 1200px;
     }
+    .section {
+      padding-top: 94px;
+      padding-bottom: 94px;
+    }
+  }
+

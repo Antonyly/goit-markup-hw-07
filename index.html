@@ -28,12 +28,13 @@
                     <li class="nav-list__item"> <a class="nav-list__link link" href="">Контакты</a></li>
                 </ul>
             </nav>
-            <button type="button" class="mobile-menu-btn" data-menu-open >
+            <button type="button" class="mobile-menu-btn " data-menu-open >
                 <svg class="mobile-menu-btn__icon" width="40" height="40" >
                     <use href="./icons/sprite.svg#mobile-burger-icon"></use>
                 </svg>
                 
             </button>
+            
             <ul class="header-container__list list">
                 <li class="header-container__item">
 
@@ -44,7 +45,7 @@
                         </svg>
                         info@devstudio.com</a>
                 </li>
-                <li class="header-container__list">
+                <li class="header-container__item">
 
 
                     <a class="header-container__link link" href="tel:+380961111111">
@@ -59,14 +60,15 @@
 
                 <!-- MOBILE MENU -->
 
-
-        <div class="mobile-menu " data-menu>
+        <div class="mobile-menu container" data-menu>
+            
         <div class="container mobile-menu__container">
             <button class="mobile-menu__close-btn" data-menu-close>
                 <svg class="mobile-menu__close-icon" width="40" height="40">
                     <use href="./icons/sprite.svg#icon-close"></use>
                 </svg>
             </button>
+
             <ul class="mobile-menu__list">
                 <li class="mobile-menu__item list"> <a class="mobile-menu__item-link link mobile-menu__item-link_current"
                         href="./index.html">Студия</a>
@@ -74,40 +76,43 @@
                 <li class="mobile-menu__item list"> <a class="mobile-menu__item-link link" href="./portfolio.html">Портфолио</a></li>
                 <li class="mobile-menu__item list"> <a class="mobile-menu__item-link link" href="">Контакты</a></li>
             </ul>
-            <ul class="contact-menu list">
-                <li class="contact-menu__list list">
+<div class="flex-wrapper">
+                <ul class="contact-menu list">
+                    <li class="contact-menu__item ">
                 
                 
-                    <a class="contact-menu__link link " href="tel:+380961111111">+38 096 111 11 11</a>
-                </li>
-                <li class="contact-menu__item">
-            
-                    <a class="contact-menu__link link " href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-               
-            </ul>
-            <ul class="socials-list">
-                <li class="socials-list__item list">
-                    <a href="" class="socials-list__link link">Instagram</a>
-                </li>
-                <li class="socials-list__item list">
-                    <a href="" class="socials-list__link link"> Facebook</a>
-                </li>
-                <li class="socials-list__item list">
-                    <a href="" class="socials-list__link link">Twitter</a>
-                </li>
-                <li class="socials-list__item list">
-                    <a href="" class="socials-list__link link">LinkedIn</a>
-                </li>
-            </ul>
+                        <a class="contact-menu__link link " href="tel:+380961111111">+38 096 111 11 11</a>
+                    </li>
+                    <li class="contact-menu__item">
+                
+                        <a class="contact-menu__link link " href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                
+                </ul>
+                <ul class="socials-list">
+                    <li class="socials-list__item list">
+                        <a href="" class="socials-list__link link">Instagram</a>
+                    </li>
+                    <li class="socials-list__item list">
+                        <a href="" class="socials-list__link link">Twitter</a>
+                    </li>
+                    <li class="socials-list__item list">
+                        <a href="" class="socials-list__link link">Facebook</a>
+                    </li>
+                    <li class="socials-list__item list">
+                        <a href="" class="socials-list__link link">LinkedIn</a>
+                    </li>
+                </ul>
+            </div>
         </div>
         </div>
+
     </header>
     <main>
 
         <!-- ========= Hero ========= -->
 
-        <!-- <section class="hero hero-bg">
+        <section class="hero hero-bg">
             <div class="container hero-container" >
                 <h1 class="hero-container__title">Эффективные решения <br>для вашего бизнеса</h1>
                 <button class="hero-container__btn" type="button" data-modal-open>Заказать услугу</button>
@@ -116,14 +121,14 @@
                 <div class="modal">
                     <svg class="close" width="30" height="30" data-modal-close>
                         <use href="./icons/sprite.svg#close"></use>
-                    </svg> -->
+                    </svg>
 
 
         <!-- ========= FORM ========= -->
 
 
 
-                    <!-- <form class="form-section">
+                    <form class="form-section">
 
                         <p class="form-section__title">Оставьте свои данные, мы вам перезвоним</p>
                 
@@ -170,7 +175,7 @@
                             
                         
                             <input class="form-box__input visually-hidden" name="accept-policy" type="checkbox" id="check" required>
-                        <label for="check" class="form-box__label" > Соглашаюсь с рассылкой и принимаю&nbsp;<a href="" class="form-box__link">Условия договора</a></label>
+                        <label for="check" class="form-box__label" >Соглашаюсь с рассылкой и принимаю&nbsp;<a href="" class="form-box__link">Условия договора</a></label>
                     
                     </div>
                         
@@ -182,13 +187,13 @@
 
                 </div>
             </div>
-        </section> -->
+        </section>
 
 
         <!-- ========= Qualities ========= -->
 
 
-        <!-- <section class="section qualities ">
+        <section class="section qualities ">
             <div class="container">
 
 
@@ -196,7 +201,7 @@
 
 
                     <h2 class="visually-hidden">Наши Обезательности</h2>
-                    <li class="caption-list-item">
+                    <li class="caption-list__item">
                         <div class="icon-section">
                             <svg class="under-icon" width="70" height="70">
                                 <use href="./icons/sprite.svg#antenna"></use>
@@ -207,7 +212,7 @@
                             позиции.</p>
                     </li>
 
-                    <li class="caption-list-item">
+                    <li class="caption-list__item">
                         <div class="icon-section"><svg class="under-icon" width="70" height="70">
                                 <use href="./icons/sprite.svg#clock"></use>
                             </svg>
@@ -218,7 +223,7 @@
                             влечет за собой.</p>
                     </li>
 
-                    <li class="caption-list-item">
+                    <li class="caption-list__item">
                         <div class="icon-section"><svg class="under-icon" width="70" height="70">
                                 <use href="./icons/sprite.svg#diagram"></use>
                             </svg>
@@ -229,7 +234,7 @@
                             обуславливает.</p>
                     </li>
 
-                    <li class="caption-list-item">
+                    <li class="caption-list__item">
                         <div class="icon-section"><svg class="under-icon" width="70" height="70">
                                 <use href="./icons/sprite.svg#astronaut"></use>
                             </svg>
@@ -242,11 +247,11 @@
                 </ul>
             </div>
 
-        </section> -->
+        </section>
 
         <!-- ========= Obligation ========= -->
 
-        <!-- <section class="obligation-section section">
+        <section class="obligation-section section">
 
             <div class="container">
                 <h2 class="obligation">Чем мы занимаемся</h2>
@@ -275,11 +280,11 @@
                          
                 </ul>
             </div>
-        </section> -->
+        </section>
 
         <!-- ========= Our Team ========= -->
 
-        <!-- <section class="section team-section">
+        <section class="section team-section">
             <div class="container">
                 <h2 class="subtitle ">Наша команда</h2>
                 <ul class="subtitle-list list">
@@ -440,9 +445,9 @@
                     </li>
                 </ul>
             </div>
-        </section> -->
+        </section>
         <!-- ========= Clients ========= -->
-        <!-- <section class="section">
+        <section class="section">
             <div class="container">
                 <h2 class="clients-title">Постоянные клиенты</h2>
                 <ul class="list-clients list">
@@ -491,16 +496,16 @@
                 </ul>
             </div>
         </section>
- -->
+
 
 
         <!-- ========= Footer ========= -->
 
-    <!-- </main>
+ </main>
     <footer class="footer">
-        <section class="section-footer">
+        <section class="section-footer section">
             <div class="container footer-container">
-                <div class=" footer-section">
+                <div class="footer-section">
                     <a class="footer-logo link" href="./index.html"><span class="logo-site-footer">Web</span>Studio</a>
                     <address class="footer-addresses">
                         <ul class="footer-list list">
@@ -560,16 +565,18 @@
                 
                 <div class="btn-section">
                             <input name="user_mail" type="mail" class="footer-input" required placeholder="E-mail">
-                    
-                        <button type="submit" class="footer-btn">Подписаться</button>
+                        
                         </div>
+                        
+                        
                     </form>
+                    <button type="submit" class="footer-btn">Подписаться</button>
                     </div>
                     
                 </div>
 
             </section>
-        </footer> -->
+        </footer>
 
 
 
