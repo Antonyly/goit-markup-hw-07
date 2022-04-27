@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -113,7 +113,7 @@
     </header>
     <!-- ========= Work ========= -->
     <main class="main-section">
-        <section class=" work">
+        <section class="section ">
             <div class="container">
                 <h1 class="visually-hidden">Список возможностей</h1>
                 <ul class="portfolio-list">
@@ -131,7 +131,17 @@
                     <a class="main-list__link" href="">
                         <li class="main-list__item ">
                             <div class="portfolio-wrapper">
-                                <img src="./portfolio-img/web-1.jpg" alt="веб-страничка" class="list-photo" >
+                            <picture class="portfplio-picture">
+                                <source srcset="./portfolio-img/web-1.jpg 1x, ./portfolio-img/web-1@2x.jpg 2x" media="(min-width: 1200px)"
+                                    type="image/jpeg" />
+                                <source srcset="./img/Laptop/web-1.jpg 1x, ./img/Laptop/web-1@2x.jpg 2x" media="(min-width: 768px)"
+                                    type="image/jpeg" />
+                                <source srcset="./img/mobile/web-1.jpg 1x, ./img/mobile/web-1@2x.jpg 2x" media="(max-width: 767px)"
+                                    type="image/jpeg" />
+                            
+                            
+                                <img class="list-photo" src="./portfolio-img/web-1.jpg" alt="дизайнер">
+                            </picture>
     
     
                                 <p class="portfolio-wrapper__text portfolio-wrapper__bg">
@@ -149,10 +159,23 @@
                         </li>
     
                     </a>
+
                     <a class="main-list__link" href="">
-                        <li class="main-list__item ">
+                       <li class="main-list__item "> 
+                            
                             <div class="portfolio-wrapper">
-                                <img src="./portfolio-img/design-1.jpg" alt="веб-страничка" class="list-photo" width="370">
+                                <picture class="portfplio-picture">
+                                    <source srcset="./portfolio-img/design-1.jpg 1x, ./portfolio-img/design-1@2x.jpg 2x" media="(min-width: 1200px)"
+                                        type="image/jpeg" />
+                                    <source srcset="./img/Laptop/design-1.jpg 1x, ./img/Laptop/design-1@2x.jpg 2x" media="(min-width: 768px)"
+                                        type="image/jpeg" />
+                                    <source srcset="./img/mobile/design-1.jpg 1x, ./img/mobile/design-2@2x.jpg 2x" media="(max-width: 767px)"
+                                        type="image/jpeg" />
+                                
+                                
+                                    <img class="list-photo" src="./portfolio-img/design-1.jpg" alt="веб-страничка">
+                                </picture>
+                               
     
     
                                 <p class="portfolio-wrapper__text portfolio-wrapper__bg">
@@ -174,7 +197,18 @@
                     <a class="main-list__link" href="">
                         <li class="main-list__item ">
                             <div class="portfolio-wrapper">
-                                <img src="./portfolio-img/app-1.jpg" alt="веб-страничка" class="list-photo" width="370">
+                                <picture class="portfplio-picture">
+                                    <source srcset="./portfolio-img/app-1.jpg 1x, ./portfolio-img/app-1@2x.jpg 2x" media="(min-width: 1200px)"
+                                        type="image/jpeg" />
+                                    <source srcset="./img/Laptop/app-1.jpg 1x, ./img/Laptop/design-1@2x.jpg 2x" media="(min-width: 768px)"
+                                        type="image/jpeg" />
+                                    <source srcset="./img/mobile/app-1.jpg 1x, ./img/mobile/app-1@2x.jpg 2x" media="(max-width: 767px)"
+                                        type="image/jpeg" />
+                                
+                                
+                                    <img class="list-photo" src="./portfolio-img/app-1.jpg" alt="веб-страничка">
+                                </picture>
+                            
     
     
                                 <p class="portfolio-wrapper__text portfolio-wrapper__bg">
@@ -196,8 +230,18 @@
                     <a class="main-list__link" href="">
                         <li class="main-list__item ">
                             <div class="portfolio-wrapper">
-                                <img src="./portfolio-img/marketing-1.jpg" alt="веб-страничка" class="list-photo"
-                                    width="370">
+                                <picture class="portfplio-picture">
+                                    <source srcset="./portfolio-img/marketing-1.jpg 1x, ./portfolio-img/marketing-1@2x.jpg 2x" media="(min-width: 1200px)"
+                                        type="image/jpeg" />
+                                    <source srcset="./img/Laptop/marketing-1.jpg 1x, ./img/Laptop/marketing-1@2x.jpg 2x" media="(min-width: 768px)"
+                                        type="image/jpeg" />
+                                    <source srcset="./img/mobile/marketing-1.jpg 1x, ./img/mobile/marketing-1@2x.jpg 2x" media="(max-width: 767px)"
+                                        type="image/jpeg" />
+                                
+                                
+                                    <img class="list-photo" src="./portfolio-img/marketing-1.jpg" alt="веб-страничка">
+                                </picture>
+                                
     
     
                                 <p class="portfolio-wrapper__text portfolio-wrapper__bg">
@@ -219,7 +263,17 @@
                     <a class="main-list__link" href="">
                         <li class="main-list__item ">
                             <div class="portfolio-wrapper">
-                                <img src="./portfolio-img/app-2.jpg" alt="веб-страничка" class="list-photo" width="370">
+                                <picture class="portfplio-picture">
+                                    <source srcset="./portfolio-img/app-2.jpg 1x, ./portfolio-img/app-2@2x.jpg 2x" media="(min-width: 1200px)"
+                                        type="image/jpeg" />
+                                    <source srcset="./img/Laptop/app-2.jpg 1x, ./img/Laptop/app-2@2x.jpg 2x" media="(min-width: 768px)"
+                                        type="image/jpeg" />
+                                    <source srcset="./img/mobile/app-2.jpg 1x, ./img/mobile/app-2@2x.jpg 2x" media="(max-width: 767px)"
+                                        type="image/jpeg" />
+                                
+                                
+                                    <img class="list-photo" src="./portfolio-img/app-2.jpg" alt="веб-страничка">
+                                </picture>
     
     
                                 <p class="portfolio-wrapper__text portfolio-wrapper__bg">
@@ -241,7 +295,17 @@
                     <a class="main-list__link" href="">
                         <li class="main-list__item ">
                             <div class="portfolio-wrapper">
-                                <img src="./portfolio-img/web-2.jpg" alt="веб-страничка" class="list-photo" width="370">
+                                <picture class="portfplio-picture">
+                                    <source srcset="./portfolio-img/web-2.jpg 1x, ./portfolio-img/web-2@2x.jpg 2x" media="(min-width: 1200px)"
+                                        type="image/jpeg" />
+                                    <source srcset="./img/Laptop/web-2.jpg 1x, ./img/Laptop/web-2@2x.jpg 2x" media="(min-width: 768px)"
+                                        type="image/jpeg" />
+                                    <source srcset="./img/mobile/web-2.jpg 1x, ./img/mobile/web-2@2x.jpg 2x" media="(max-width: 767px)"
+                                        type="image/jpeg" />
+                                
+                                
+                                    <img class="list-photo" src="./portfolio-img/wev-2.jpg" alt="веб-страничка">
+                                </picture>
     
     
                                 <p class="portfolio-wrapper__text portfolio-wrapper__bg">
@@ -264,7 +328,17 @@
                     <a class="main-list__link" href="">
                         <li class="main-list__item ">
                             <div class="portfolio-wrapper">
-                                <img src="./portfolio-img/design-2.jpg" alt="веб-страничка" class="list-photo" width="370">
+                                <picture class="portfplio-picture">
+                                    <source srcset="./portfolio-img/design-2.jpg 1x, ./portfolio-img/design-2@2x.jpg 2x" media="(min-width: 1200px)"
+                                        type="image/jpeg" />
+                                    <source srcset="./img/Laptop/design-2.jpg 1x, ./img/Laptop/design-2@2x.jpg 2x" media="(min-width: 768px)"
+                                        type="image/jpeg" />
+                                    <source srcset="./img/mobile/design-2.jpg 1x, ./img/mobile/design-2@2x.jpg 2x" media="(max-width: 767px)"
+                                        type="image/jpeg" />
+                                
+                                
+                                    <img class="list-photo" src="./portfolio-img/design-2.jpg" alt="веб-страничка">
+                                </picture>
     
     
                                 <p class="portfolio-wrapper__text portfolio-wrapper__bg">
@@ -286,8 +360,17 @@
                     <a class="main-list__link" href="">
                         <li class="main-list__item ">
                             <div class="portfolio-wrapper">
-                                <img src="./portfolio-img/marketing-2.jpg" alt="веб-страничка" class="list-photo"
-                                    width="370">
+                                <picture class="portfplio-picture">
+                                    <source srcset="./portfolio-img/marketing-2.jpg 1x, ./portfolio-img/marketing-2@2x.jpg 2x" media="(min-width: 1200px)"
+                                        type="image/jpeg" />
+                                    <source srcset="./img/Laptop/marketing-2.jpg 1x, ./img/Laptop/marketing-2@2x.jpg 2x" media="(min-width: 768px)"
+                                        type="image/jpeg" />
+                                    <source srcset="./img/mobile/marketing-2.jpg 1x, ./img/mobile/marketing-2@2x.jpg 2x" media="(max-width: 767px)"
+                                        type="image/jpeg" />
+                                
+                                
+                                    <img class="list-photo" src="./portfolio-img/marketing-2.jpg" alt="веб-страничка">
+                                </picture>
     
     
                                 <p class="portfolio-wrapper__text portfolio-wrapper__bg">
@@ -309,7 +392,17 @@
                     <a class="main-list__link" href="">
                         <li class="main-list__item ">
                             <div class="portfolio-wrapper">
-                                <img src="./portfolio-img/app-3.jpg" alt="веб-страничка" class="list-photo" width="370">
+                                <picture class="portfplio-picture">
+                                    <source srcset="./portfolio-img/app-3.jpg 1x, ./portfolio-img/app-3@2x.jpg 2x" media="(min-width: 1200px)"
+                                        type="image/jpeg" />
+                                    <source srcset="./img/Laptop/app-3.jpg 1x, ./img/Laptop/app-3@2x.jpg 2x" media="(min-width: 768px)"
+                                        type="image/jpeg" />
+                                    <source srcset="./img/mobile/app-3.jpg 1x, ./img/mobile/app-3@2x.jpg 2x" media="(max-width: 767px)"
+                                        type="image/jpeg" />
+                                
+                                
+                                    <img class="list-photo" src="./portfolio-img/app-3.jpg" alt="веб-страничка">
+                                </picture>
     
     
                                 <p class="portfolio-wrapper__text portfolio-wrapper__bg">
@@ -327,7 +420,7 @@
                             </div>
                         </li>
     
-                    </a>
+                    </a> 
                 </ul>
             </div>
         </section>
@@ -336,7 +429,7 @@
 
 
     </main>
-    <!-- <footer class="footer">
+    <footer class="footer">
         <section class="section-footer section">
             <div class="container footer-container">
                 <div class=" footer-section">
@@ -413,7 +506,7 @@
             </div>
     
         </section>
-    </footer> -->
+    </footer>
 
 
     <script>
